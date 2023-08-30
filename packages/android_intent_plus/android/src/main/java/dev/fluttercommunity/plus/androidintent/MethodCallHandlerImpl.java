@@ -125,6 +125,8 @@ public final class MethodCallHandlerImpl implements MethodCallHandler {
         return Intent.ACTION_VIEW;
       case "action_voice":
         return Intent.ACTION_VOICE_COMMAND;
+      case "action_open_document":
+        return Intent.ACTION_OPEN_DOCUMENT
       case "settings":
         return Settings.ACTION_SETTINGS;
       case "action_location_source_settings":
